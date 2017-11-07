@@ -13,5 +13,10 @@ namespace DevOpsDays
         {
             InitializeComponent();
         }
+
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+            myLabel.Text = myLabel.Text + "DevOpsDays";
+        }
     }
 }

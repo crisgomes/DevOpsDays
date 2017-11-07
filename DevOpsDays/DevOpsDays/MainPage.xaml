@@ -5,9 +5,11 @@
              x:Class="DevOpsDays.MainPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!!!"
+            <Label  Text="Welcome to Xamarin.Forms!!!"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
+            <Button Text="Clique Aqui" Clicked="Button_Clicked"></Button>
+            <Label x:Name="myLabel"></Label>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
