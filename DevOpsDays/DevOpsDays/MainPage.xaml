@@ -10,6 +10,7 @@
                 HorizontalOptions="CenterAndExpand" />
             <Button Text="Clique Aqui" Clicked="Button_Clicked"></Button>
             <Label x:Name="myLabel"></Label>
+            <WebView WidthRequest="500" HeightRequest="500" Source="https://www.devopsdays.org/events/2017-brasilia/"></WebView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
